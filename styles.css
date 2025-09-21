@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+#flipbook {
+    width: 559px;  /* CHANGE THIS: book width */
+    height: 794px; /* CHANGE THIS: book height */
+}
+
+.flip-page {
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-page canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

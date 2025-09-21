@@ -1,1 +1,28 @@
-<iframe id="flip" style="width:100%;height:100%" src="https://online.anyflip.com/agatj/vobb/index.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom Flipbook</title>
+
+<!-- jQuery (required for turn.js) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Turn.js (official CDN) -->
+<script src="https://cdn.jsdelivr.net/gh/blasten/turn.js@4.1.0/turn.min.js"></script>
+
+<!-- PDF.js (official CDN) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.9.179/pdf.min.js"></script>
+
+<!-- Your CSS -->
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- CHANGE THIS: path to your PDF file -->
+<div class="book" data-pdf="https://raw.githubusercontent.com/DotAE-book/flip/035fabf40e5af99ee1eb86e5a18ea91b26a44670/DeathOfTheAverageEarth.pdf" id="flipbook"></div>
+
+<!-- Your JS -->
+<script src="./script.js"></script>
+</body>
+</html>
